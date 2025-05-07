@@ -1,0 +1,99 @@
+
+    <header>
+        <h1>Ikhlas School Shivamogga</h1>
+        <p>Education for a Bright Future</p>
+    </header>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> [School Address, Shivamogga, Karnataka, India - 577201]</p>
+            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+            <p><strong>Email:</strong> info@ikhlesschool.edu.in</p>
+            <p><strong>Website:</strong> <a href="#" target="_blank">www.ikhlesschool.edu.in</a></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Ikhlas School Shivamogga. All Rights Reserved.
+    </footer>
+    <p><strong>Website:</strong> <a href="#" target="_blank">www.ikhlesschool.edu.in</a></p>
+
+
+
+
+/* Header Styling */
+header {
+    background: #0066cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #0066cc;
+}
+
+/* Contact Info Section */
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0055aa;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0066cc;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

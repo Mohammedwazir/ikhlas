@@ -1,0 +1,30 @@
+/* ----- Button Container Styles ----- */
+.button-container {
+  display: flex;
+  gap: 15px;                 /* Space between buttons */
+  justify-content: center;   /* Center buttons horizontally */
+  margin-bottom: 20px;       /* Space below buttons */
+}
+
+/* ----- Button Styles ----- */
+.button-container a,
+.button-container button {
+  background: #1A237E;       /* Navy blue */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;     /* Remove underline from <a> */
+  transition: background 0.3s;
+  text-align: center;
+  display: inline-block;     /* Ensure proper padding for <a> */
+}
+
+.button-container a:hover,
+.button-container button:hover {
+  background: #0D1B6B;      /* Darker navy on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
